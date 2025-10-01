@@ -1,4 +1,4 @@
-import pygame
+import pygame # run 'pip install pygame' in the terminal or in command prompt
 import random
 from Physics import *
 
@@ -139,5 +139,6 @@ while run: # Game loop
     game.winCheck(game.ball, dimensions)
 
     clock.tick(framerate)
+
 
 pygame.quit()
